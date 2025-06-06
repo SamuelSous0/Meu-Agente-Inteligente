@@ -12,6 +12,7 @@ Projeto desenvolvido para representar, de forma interativa, um agente inteligent
 ## Tecnologias
 - HTML, CSS e JavaScript puro
 - draw.io para modelagem teórica (fluxograma)
+- codepen (https://codepen.io/SamuelSous0/pen/jEPwreY)
 
 ## Autor
 Samuel Alexandre de Sousa Barbosa && Paulo Cesar Mendes de Jesus Neto

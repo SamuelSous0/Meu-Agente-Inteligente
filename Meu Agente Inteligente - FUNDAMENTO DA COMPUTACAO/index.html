@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Meu Agente Inteligente - Simulador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Simulador - Meu Agente Inteligente</h1>
+
+  <div id="container">
+    <div id="cenario">
+      <div id="ponto"></div>
+    </div>
+
+    <div id="celular">
+      <div id="tela">
+        <strong>Notificações:</strong>
+      </div>
+    </div>
+  </div>
+
+  <button id="botao" onclick="iniciarSimulacao()">Iniciar Simulação</button>
+
+  <section style="max-width: 800px; margin-top: 40px; background: #f1f1f1; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  <h2>🧰 Tópico 4 – Ferramentas Virtuais Sugeridas</h2>
+  <p>
+    Para o desenvolvimento do agente inteligente proposto, utilizamos uma combinação de ferramentas práticas e acessíveis.
+    A simulação foi criada com <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, representando de forma visual a chegada de ônibus e o envio de notificações ao usuário. O <strong>Visual Studio Code</strong> foi o editor principal para a codificação, pela sua eficiência e compatibilidade com as linguagens usadas.
+  </p>
+  <p>
+    Como apoio ao planejamento visual e conceitual, sugerem-se ferramentas como <strong>Figma</strong> (para design de interface), <strong>draw.io</strong> ou <strong>Lucidchart</strong> (para diagramas de lógica e fluxogramas), além de <strong>Canva</strong> ou <strong>PowerPoint</strong> para apresentação do projeto. Também podem ser utilizadas plataformas como <strong>CodePen</strong> ou <strong>JSFiddle</strong> para testes rápidos de código.
+  </p>
+  <p>
+    Mesmo utilizando ferramentas simples, o projeto demonstra como um agente inteligente pode interagir com dados simulados e tomar decisões que impactam diretamente na experiência do usuário. Futuramente, ele pode ser expandido com integrações reais, como APIs de transporte, sensores físicos e envio de notificações push.
+  </p>
+</section>
+<section style="margin-top: 30px; text-align: center;">
+  <h2>📊 Diagrama da Lógica do Agente</h2>
+  <p>Clique no botão abaixo para visualizar o funcionamento interno do agente inteligente.</p>
+  <button onclick="document.getElementById('diagrama').style.display='block'" style="padding: 10px 20px; font-size: 16px; border: none; background: #007bff; color: white; border-radius: 5px; cursor: pointer;">
+    Mostrar Diagrama
+  </button>
+  <div id="diagrama" style="display: none; margin-top: 20px;">
+    <img src="/Diagrama.drawio.png" alt="Diagrama do Agente Inteligente" style="max-width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+  </div>
+</section>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
